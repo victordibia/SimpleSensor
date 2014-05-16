@@ -1,0 +1,31 @@
+<!-- Sample Code by Victor Dibia, Dencycom.com May 16, 2014 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,user-scalable=no"/>
+	<title>Wearable UI</title>
+	<link rel="stylesheet"  href="lib/tau/themes/default/tau.min.css">
+	<!-- load theme file for your application -->
+	<link rel="stylesheet"  href="css/style.css">
+</head>
+<body>
+	<div class="ui-page ui-page-active" id="main">
+		<header class="ui-header">
+			<h2 class="ui-title">Simple Sensor</h2>
+		</header>
+		<div class="ui-content content-padding">
+			<p style="font-size: 25px ; border-bottom: 1px solid #fff; padding-bottom: 10px; ">Pedometer Readings </p>
+				
+			<ul class="ui-listview">
+			    <p id="calories" style="font-size: 20px "> Calories</p>
+				<p id="steps" style="font-size: 20px ">Steps</p>
+			</ul>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="lib/tau/js/tau.min.js"></script>
+<!-- load javascript file for your application -->
+<script src="js/app.js"></script>
+<script src="js/pedo.js"></script>
+<script src="js/lowBatteryCheck.js"></script>
+</html>
