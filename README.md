@@ -7,6 +7,6 @@ You may include it in your projects, modify and enhance it.
 Note
 ============
 Code contribution is absolutely welcome. 
-If you would like to add code to read data from other sensors, feel free to do so!
+If you would like to add code to read data from other Gear 2 sensors, feel free to do so!
 
 -V
