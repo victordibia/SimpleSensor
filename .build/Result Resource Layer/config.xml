@@ -4,7 +4,7 @@
     <content src="index.html"/>
     <feature name="http://tizen.org/feature/screen.size.normal.320.320"/>
     <icon src="icon.png"/>
-    <name>SimpleSensor</name>
+    <name>Pedometer Tutorial </name>
     <tizen:privilege name="http://developer.samsung.com/privilege/healthinfo"/>
     <tizen:setting hwkey-event="enable"/>
 </widget>

@@ -18,6 +18,7 @@
 	 //Start pedomenter ;
 	 function getPedometerData(pedometerInfo) {
          var pData = {
+        		 
              calorie: pedometerInfo.cumulativeCalorie,
              distance: pedometerInfo.cumulativeDistance,
              runDownStep: pedometerInfo.cumulativeRunDownStepCount,
@@ -89,6 +90,19 @@
                  handlePedometerInfo(pedometerInfo, 'pedometer.change');
              }
          );
+         
+        heart = window.webapis.motion;
+        heart.getMotionInfo(
+                "HRM",
+                function onSuccess(e) {
+                   // handlePedometerInfo(pedometerInfo, 'pedometer.change');
+                	console.log("Heart rate started" + e);
+                },
+                function onErorr(e) {
+                    // handlePedometerInfo(pedometerInfo, 'pedometer.change');
+                 	console.log("error" + e);
+                 }
+            );
      }
 
      /**
