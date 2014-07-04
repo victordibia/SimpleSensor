@@ -91,7 +91,9 @@
              }
          );
          
-        heart = window.webapis.motion;
+        /*
+         * Heart reate not curently supported.
+         * heart = window.webapis.motion;
         heart.getMotionInfo(
                 "HRM",
                 function onSuccess(e) {
@@ -103,7 +105,7 @@
                  	console.log("error" + e);
                  }
             );
-     }
+     }*/
 
      /**
       * Unregisters a change listener
